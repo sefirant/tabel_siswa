@@ -12,10 +12,11 @@
 		<tr>
 			<td colspan="6">
 				<h3><center>DATA</center></h3>
+	<a href="input.php"><center>Tambah</center></a>			
 				
 		</tr>
 		<tr>
-			<th>No</th>
+			<th>Id</th>
 			<th>Username</th>
 			<th>Password</th>
 			<th>Level</th>
