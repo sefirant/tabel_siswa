@@ -34,7 +34,11 @@
 			<td><?php echo $data['password']; ?></td>
 			<td><?php echo $data['level']; ?></td>
 			<td><?php echo $data['fullname']; ?></td>
-			
+			<td>
+			<a onclick="return confirm('Yakin untuk menghapus ?')"
+			href="delete.php?id=<?php echo $data['id']; ?>">Hapus</a>
+			<a href="edit.php?id=<?php echo $data['id']; ?>">Edit</a>
+			</td>
 
 		</tr>
 
